@@ -1,0 +1,6 @@
+alias vsc="code ."
+
+alias ga="git add -A"
+alias gca="git commit --amend --no-edit"
+alias gpf="git push --force-with-lease"
+alias gs="git status"
