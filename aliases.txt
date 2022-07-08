@@ -4,3 +4,10 @@ alias ga="git add -A"
 alias gca="git commit --amend --no-edit"
 alias gpf="git push --force-with-lease"
 alias gs="git status"
+alias gpu="git pull"
+alias gprm="git pull --rebase origin master"
+alias gl="git log"
+
+gcm () {
+  git commit -m $1 -m $2
+}
