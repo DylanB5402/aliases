@@ -7,7 +7,11 @@ alias gs="git status"
 alias gpu="git pull"
 alias gprm="git pull --rebase origin master"
 alias gl="git log"
+alias gf="git fetch"
+alias gdc="git diff --check"
 
-gcm () {
-  git commit -m $1 -m $2
-}
+#aops
+alias cdba="cd /var/www/ba"
+alias bastart="cdba; docker-compose up -d; ttab 'cdba; nvm use; npm run dev-server'; ttab 'cdba; nvm use; npm run watch';"
+alias checkpretty="npm run check; npm run pretty"
+alias tcc="trove configure-codeartifact"
